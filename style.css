@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nova-Square", "Roboto", sans-serif;
+}
+.image{ 
+ position: relative;
+ height: 150px;
+ width: 150px;
+ border-radius: 50%;
+}
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
